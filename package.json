@@ -1,6 +1,6 @@
 {
   "name": "array-combinator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate combinations of array elements",
   "main": "index.js",
   "scripts": {
