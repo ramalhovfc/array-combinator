@@ -63,4 +63,11 @@ describe( 'generateCombinations', () => {
 		assert.equal( combinations.length, 4, 'Correct number of combinations' );
 		assert.deepEqual( combinations, expectedResult, 'Combine elements in all possibilities' );
 	} );
+
+	it( 'Should reject malformed data', () => {
+		const data = [1, 2];
+		const combinations = generateCombinations( data );
+
+		assert.equal( combinations, null, 'Reject data' );
+	} );
 } );

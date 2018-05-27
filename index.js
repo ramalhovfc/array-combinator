@@ -14,6 +14,15 @@
  * @returns {Array.<Array.<*>>} The possible combinations for each elements of the array
  */
 function generateCombinations( data ) {
+	if ( !Array.isArray( data )) {
+		return null;
+	}
+	for ( const e of data ) {
+		if ( !Array.isArray( e ) ) {
+			return null;
+		}
+	}
+
 	/**
 	 * Implements a n-ary counter where n is the number of elements of each element of the array
 	 *
@@ -48,4 +57,3 @@ function generateCombinations( data ) {
 }
 
 module.exports = generateCombinations;
-
