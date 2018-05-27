@@ -1,0 +1,27 @@
+{
+  "name": "array-combinator",
+  "version": "0.0.1",
+  "description": "Generate combinations of array elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramalhovfc/array-combinator.git"
+  },
+  "keywords": [
+    "node",
+    "combination",
+    "combinations",
+    "array",
+    "elements",
+    "mix"
+  ],
+  "author": "ramalhovfc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramalhovfc/array-combinator/issues"
+  },
+  "homepage": "https://github.com/ramalhovfc/array-combinator#readme"
+}
